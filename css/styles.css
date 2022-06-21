@@ -60,7 +60,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #332885;
   --bs-body-bg: #fff;
 }
 
@@ -235,7 +235,7 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #ffffff;
   text-decoration: underline;
 }
 a:hover {
@@ -11381,6 +11381,36 @@ footer.footer {
 }
 
 .img-title {
-  max-width: 20rem;
-  max-height: 20rem;
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.icon-experienced::before {
+  content: "";
+  display: block;
+  background: url("../assets/img/professional-icon.png") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  float: center;
+  margin: 0 0 0 0;
+}
+
+.icon-graduate::before {
+  content: "";
+  display: block;
+  background: url("../assets/img/graduate-icon.png") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  float: center;
+  margin: 0 0 0 0;
+}
+
+.icon-document::before {
+  content: "";
+  display: block;
+  background: url("../assets/img/document-icon.png") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  float: center;
+  margin: 0 0 0 0;
 }
