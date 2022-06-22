@@ -11414,3 +11414,7 @@ footer.footer {
   float: center;
   margin: 0 0 0 0;
 }
+
+.features-icons-link {
+  margin: auto;
+}
